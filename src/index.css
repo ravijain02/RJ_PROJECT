@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wtsp_chat .whatsapp-ico{
+    position: fixed;
+    bottom: 160px;
+    right : 20px;
+    fill: white;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    background-color: #4dc247;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(72, 250, 1, 0.4);
+    z-index: 10;
+}
+
+.wtsp_chat .whatsapp-ico:hover{
+    box-shadow: 2px 2px 20px rgba(1, 101, 250, 0.4);
+}

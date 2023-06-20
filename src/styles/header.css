@@ -1,0 +1,57 @@
+.mainheader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #5400c9;
+}
+.cntleft{
+    padding: 20px;
+    width: 200px;
+}
+.cntleft span{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cntcenter .main_menu{
+    display: flex;
+    padding: 20px;
+    justify-content: center
+}
+.cntcenter {
+    width: calc(100% - 400px)
+}
+.cntcenter .main_menu li{
+    margin-right: 30px;
+    padding: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.cntcenter .main_menu li:hover{
+    color: #06013d;
+}
+.cntright{
+    padding: 20px;
+    width: 200px;
+}
+.cntright button{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    color: rgb(17, 0, 255);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+}
+.cntright button:hover{
+    background-color: rgb(17, 0, 255);
+    color: #fff;;
+}
